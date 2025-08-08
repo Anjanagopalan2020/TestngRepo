@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="TestngTest" >
+  <test name="Tests" >
+   <groups>
+     <run>
+      <exclude name="smoketest1"/>
+     </run>
+   </groups>
+   
+    <classes>
+      <class name="qa.com.testng.Groups"/>
+    </classes>
+   </test>
+</suite> <!-- Suite -->
